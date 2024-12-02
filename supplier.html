@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Supplier Form</title>
+  <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>New Supplier</h2>
+    <form>
+      <div class="form-header">
+        <!-- Image Upload Section -->
+        <div class="image-upload">
+          <div class="image-placeholder">
+            <img src="placeholder-image.png" alt="Profile">
+          </div>
+          <div class="image-label">
+            <p>
+            Drag image here <br>
+            or <span class="browse">Browse image</span></p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Input Fields -->
+      <div class="form-body">
+        <div class="form-group">
+          <label for="supplier-name">Supplier Name</label>
+          <input type="text" id="supplier-name" placeholder="Enter supplier name">
+        </div>
+        <div class="form-group">
+          <label for="product">Product</label>
+          <input type="text" id="product" placeholder="Enter product">
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <input type="text" id="category" placeholder="Enter category">
+        </div>
+        <div class="form-group">
+          <label for="price">Price</label>
+          <input type="number" id="price" placeholder="Enter price">
+        </div>
+        <div class="form-group">
+          <label for="contact-number">Contact Number</label>
+          <input type="tel" id="contact-number" placeholder="Enter contact number">
+        </div>
+
+        <!-- Type Buttons -->
+        <div class="form-group type-group">
+          <label>Type</label>
+          <div class="type-buttons">
+            <button type="button" class="type-btn return">Taking Return</button>
+            <button type="button" class="type-btn no-return">Not Taking Return</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="form-actions">
+        <button type="button" class="discard-btn">Discard</button>
+        <button type="submit" class="submit-btn">Add Supplier</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

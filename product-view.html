@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="product-view-css.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Product Name</h1>
+      <div class="action-buttons">
+        <button class="edit-btn">Edit</button>
+        <button class="download-btn">Download</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab" data-tab="overview">Overview</button>
+      <button class="tab active" data-tab="history">History</button>
+    </nav>
+
+    <main id="content">
+      <!-- Default content (Overview) -->
+      <section class="primary-details">
+        <h3>Primary Details</h3>
+        <div class="details">
+          <div>
+            <p><strong>Product Name:</strong> </p>
+            <p><strong>Product ID:</strong> </p>
+            <p><strong>Product Category:</strong> </p>
+            <p><strong>Expiry Date:</strong> </p>
+          </div>
+          <div class="image-placeholder"></div>
+        </div>
+      </section>
+
+      <section class="stock-details">
+        <div class="image-placeholder"></div>
+        <p><strong>Opening Stock:</strong></p>
+        <p><strong>Remaining Stock:</strong></p>
+        <p><strong>On the Way:</strong></p>
+      </section>
+
+        <section class="supplier-details">
+          <h3>Supplier Details</h>
+          <p><strong>Supplier Name:</strong> </p>
+          <p><strong>Contact Number:</strong> </p>
+        </section>
+    </main>
+
+  <script src="product-view-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Supplier Form</title>
+  <link rel="stylesheet" href="new-product.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>New Product</h2>
+    <form>
+      <div class="form-header">
+        <!-- Image Upload Section -->
+        <div class="image-upload">
+          <div class="image-placeholder">
+            <img src="placeholder-image.png" alt="Product">
+          </div>
+          <div class="image-label">
+            <p>
+            Drag image here <br>
+            or <span class="browse">Browse image</span></p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Input Fields -->
+      <div class="form-body">
+        <div class="form-group">
+          <label for="product-id">Product ID</label>
+          <input type="text" id="product-id" >
+        </div>
+        <div class="form-group">
+          <label for="product-name">Product Name</label>
+          <input type="text" id="product-name" >
+        </div>
+        <div class="form-group">
+          <label for="category">Category</label>
+          <input type="text" id="category" >
+        </div>
+        <div class="form-group">
+          <label for="-buying-price">Buying Price</label>
+          <input type="number" id="buying-price">
+        </div>
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" >
+        </div>
+        <div class="form-group">
+            <label for="expiry-date">Expiry Date</label>
+            <input type="date" id="expiry-date" >
+          </div>
+
+        
+      <!-- Action Buttons -->
+      <div class="form-actions">
+        <button type="button" class="discard-btn">Discard</button>
+        <button type="submit" class="submit-btn">Add Product</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

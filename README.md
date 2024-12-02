@@ -1,1 +1,1 @@
-This Repository is for front end usage.
+This Repository is for front-end project.
